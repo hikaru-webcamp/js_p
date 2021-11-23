@@ -122,7 +122,18 @@ const arr5 = [30, 40];
 
 // 三項演算子
 // ある条件？ 条件がtrueの時 : 条件がfalseの時d
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100超えてるぞい" : "100以下だぞい";
-};
-console.log(checkSum(600, 200));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100超えてるぞい" : "100以下だぞい";
+// };
+// console.log(checkSum(600, 200));
+
+const fig1 = true;
+const fig2 = false;
+
+if (fig1 || fig2) {
+  console.log("1か２はtrueになります");
+}
+
+if (fig1 && fig2) {
+  console.log("1も２もrueになります");
+}
